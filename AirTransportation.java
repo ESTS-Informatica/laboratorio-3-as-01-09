@@ -14,7 +14,7 @@ public class AirTransportation extends Transport
     /**
      * Construtor para objetos da classe AirTransportation
      */
-    public AirTransportation(String name, int numberOfContainer)
+    public AirTransportation(String name, int numberOfContainers)
     {
         super();
         super.setFees(FEES);
