@@ -36,4 +36,15 @@ public class AirTransportation extends Transport
     public double getFees(){
         return this.FEES;
     }
+    @Override
+    public String getTransportType(){
+        return "Transporte Aéreo";
+    }
+    @Override
+    public String toString(){
+        final StringBuilder strb = new StringBuilder(super.toString());
+        strb.append(String.format("%15s: %s\n", "Nome: ", this.name));
+        strb.append(String.format("%15s: %d\n", "Número de Contentores: ", this.numberOfContainers));
+        return strb.toString();
+    }
 }
