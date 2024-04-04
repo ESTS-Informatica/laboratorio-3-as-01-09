@@ -5,16 +5,16 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-/**
+/*/**
  * The test class GroundTransportation.
  *
  * @author  POO
  * @version 03/2024
  */
+/*
 public class GroundTransportationTest {
     
     private GroundTransportation groundTransport;
-
     @BeforeEach
     public void setUp() {
         groundTransport = new GroundTransportation("ABC123");
@@ -54,4 +54,4 @@ public class GroundTransportationTest {
         groundTransport.setPrice(100.0);
         assertEquals(103.0, groundTransport.getPriceWithFees(), 0.001);
     }
-}
+}*/

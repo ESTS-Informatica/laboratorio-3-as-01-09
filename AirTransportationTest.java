@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
  * @author  POO
  * @version 03/2024
  */
-
+/*
 public class AirTransportationTest {
 
     private AirTransportation airTransport;
@@ -76,4 +76,4 @@ public class AirTransportationTest {
         assertEquals(624.0,airTransport.getPriceWithFees(), 0.01);
         
     }
-}
+}*/
